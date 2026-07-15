@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:hsl(0, 100%, 25%);
+}
+nav{
+	background:white;
+	padding: 20px;
+	text-align: right;
+
+}
+nav ul {
+		display: inline-flex;
+		list-style: none;
+}
+nav ul li a{
+	padding: 20px;
+	text-decoration: none;
+	list-style: none;
+	color: hsl(0, 100%, 25%);
+	position: relative;
+	margin: 0 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 0px;
+	padding-right: 10px;
+}
+.top{
+	color: white;
+	font-size: 30px;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+.imgs{
+	margin: 30px;
+	margin-top: 10px;
+	padding-left: 40px;
+}
+.short{
+	padding-left: 200px;
+	color: white;
+	font-size: 30px;
+}
+
+.img7{
+	float: left;
+	width: 250px;
+	height: 85px;
+	padding: 0 85px 0 0;
+}
+
+h5{
+	text-align: justify;
+	color: white;
+	padding-top:25px; 
+}
+.news{
+	margin: 15px auto;
+	padding: 0px;
+	width: 75%;
+}
+main{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.news2{
+	margin: 15px auto;
+	padding: 0px;
+	width: 75%;
+}
+.img8{
+	float: left;
+	width: 250px;
+	height: 85px;
+	padding: 0 85px 0 0;
+	padding-top: 55px;
+}
+h6{
+	text-align: justify;
+	color: white;
+	padding-top:25px;
+	font-size: 12px;	
+}
+.main2{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 75px;
+}
+.main3{
+		text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 75px;	
+}
+.news3{
+	margin: 15px auto;
+	padding: 0px;
+	width: 100%;
+}
+.img9{
+	float: left;
+	width: 250px;
+	height: 85px;
+	padding: 0 85px 0 0;
+	padding-top: 55px;
+}
+h4{
+	text-align: justify;
+	color: white;
+	padding-top:25px;
+	font-size: 12px;	
+}
+
+header{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 38px;
+}
+h2{	color:white;
+	padding-top: 20px;
+}
+.available ul li{
+	background-color: white;
+	list-style: none;
+	padding-top: 25px;
+
+}
+.available ul li a{
+	text-decoration: none;
+	color:  hsl(0, 100%, 25%);
+	border: 5px;
+	cursor: pointer;
+	border-radius: 25px;
+	padding: 10px;
+}
+footer{
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	padding: 12px;
+}
+@media only screen and (max-width: 600px) {
+	body{background-color:grey;}
+
+} 
+footer a{
+	text-decoration: none;
+}
+#mg{
+	width: 100px;
+	height: 50px;
+	margin: 2px;
+
+}
