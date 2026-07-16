@@ -11,9 +11,12 @@ nav{
 	text-align: right;
 
 }
-nav ul {
-		display: inline-flex;
-		list-style: none;
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
 }
 nav ul li a{
 	padding: 20px;
@@ -41,20 +44,24 @@ p{
 	padding-right: 10px;
 }
 .top{
-	color: white;
-	font-size: 30px;
-	padding-left: 200px;
-	padding-top: 20px;
-}
+    color:white;
+    font-size:30px;
+    text-align:center;
+    padding-top:20px;
+
 .imgs{
-	margin: 30px;
-	margin-top: 10px;
-	padding-left: 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin:20px;
+
 }
 .short{
-	padding-left: 200px;
-	color: white;
-	font-size: 30px;
+    color:white;
+    font-size:30px;
+    text-align:center;
+
 }
 
 .img7{
